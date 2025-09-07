@@ -1,0 +1,64 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/assets/img/Header.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0 20px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.error {
+ padding: 10px;
+ color: white;
+ background-color: red;
+ text-align: center;
+ font-weight: bold;
+ border-radius: 10px;
+ }
+ 
+ .exito {
+ padding: 10px;
+ color: white;
+ background-color: green;
+ text-align: center;
+ font-weight: bold;
+ border-radius: 10px;
+ }
+
+ .register{
+   display: flex;
+   flex-direction: column;
+   margin: 20px auto;
+   width: 70%;
+ }
+  .login{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 70%;
+  }
